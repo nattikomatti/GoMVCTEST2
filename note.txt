@@ -1,0 +1,8 @@
+
+go mod init gomvc02
+
+
+go get github.com/gofiber/fiber/v2
+go get gorm.io/gorm
+go get gorm.io/driver/sqlserver
+go get github.com/golang-jwt/jwt/v5
