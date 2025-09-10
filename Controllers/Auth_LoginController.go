@@ -63,5 +63,8 @@ func Loginuser(c *fiber.Ctx) error {
 	// Token generation logic would go here
 
 	return c.Status(200).JSON(fiber.Map{
-		"message": "Login successful"})
+		"success": true,
+		"message": "Login successful",
+		"token":   "testtoken123456",
+	})
 }
